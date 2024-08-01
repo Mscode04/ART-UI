@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+.nav{
+    background-color: rgb(24, 24, 24) !important;
+    height: 100px !important;
+}
+.logo{
+    margin-left: 50px;
+}
+.logo img{
+    height: 50px;
+}
+
+.wt{
+    color: white !important;
+}
+.nav-main{
+    font-size: 20px;
+    margin: 20px;
+    font-family:sans-serif;
+}
+.language{
+    margin-left: 150px;
+}
+.btn1{
+    margin-right: 100px;
+    height: 60px;
+    width: 150px;
+    color: white;
+    font-size: 26px;
+    border-radius: 10px;
+    background: linear-gradient(to right,rgb(146, 41, 173), rgb(255, 8, 0)),rgb(192, 46, 46);
+}
+.btn2 i {
+    color: rgb(255, 255, 255) !important;
+    font-size: 25px;
+    margin-right: 7px;
+}
+.btn2{
+    background-color: rgba(0, 255, 255, 0);
+    border: 0;
+}
+

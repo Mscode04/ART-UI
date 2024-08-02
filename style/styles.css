@@ -5,6 +5,7 @@
 .nav{
     background-color: rgb(24, 24, 24) !important;
     height: 100px !important;
+    margin-bottom: -8px;
 }
 .logo{
     margin-left: 50px;
@@ -42,4 +43,169 @@
     background-color: rgba(0, 255, 255, 0);
     border: 0;
 }
+.back img{
+    margin-top: -9px;
+    width: 1579px;
+    height: 900px;
+}
+.front{
+    position: absolute;
+    width: 1579px;
+    height: 900px;
+    top: 97px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: linear-gradient(to bottom,#1a1d2394, #1a1d23);
+}
+.front img{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    height: 150px;
+}
+.front h1{
+   font-size: 56px;
+   color: white;
+   font-family: sans-serif;
+   letter-spacing: 1.6px;
+   margin-bottom: 31px;
+}
+.front span{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.boxs{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.boxs1{
+    height: 250px;
+    width: 250px;
+    background-color: rgba(137, 43, 226, 0.498);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+.buttons{
+    display: flex;
+    margin-top: 50px;
+}
+.buttons1{
+    display: flex;
+    position: relative;
+    bottom: 240px;
+}
 
+.box1{
+    background-image: url(/Images/nahlad.webp);
+    background-size: 100%;
+}
+.box2{
+    background-image: url(/Images/images\ \(1\).jpeg);
+    background-size: 130%;
+}
+.box3{
+    background-image: url(/Images/diana\ a\ bibi.webp);
+    background-size: 100%;
+}
+.box4{
+    background-image: url(/Images/kangoo.webp);
+    background-size: 100%;
+}
+.box5{
+    background-image: url(/Images/images.jpeg);
+    height: 250px;
+}
+.box11{
+    background-color: rgba(120, 222, 17, 0.658);
+}
+.box11 img{
+    margin-top: 50px;
+   margin-left: 30px;  
+}
+.box33{
+    background-color: rgba(195, 111, 38, 0.658);
+}
+.box44{
+    background-color: rgba(194, 193, 166, 0.658);
+}
+.box33 img{
+    padding: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.box44 img{
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.body-2 img{
+    height: 500px;
+    width: 1578px;
+}
+.msg img{
+    border-radius: 10px;
+    height: 100px;
+    position: absolute;
+    top: 1200px;
+    left: 1450px;
+}
+.foot{
+    height: 500px;
+    width: 1578px;
+    background-color: #1a1d23;  
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.menu{
+    background-color: rgba(0, 255, 255, 0);
+    list-style-type: none;
+}
+.menu li{
+    background-color: rgba(0, 255, 255, 0);
+    border: 0;
+    font-size: 26px;
+}
+.other{
+    background-color: rgba(0, 255, 255, 0);
+    list-style-type: none;
+}
+.other li{
+    background-color: rgba(0, 255, 255, 0);
+    border: 0;
+    font-size: 26px;
+}
+.btn6{
+    margin-right: 50px !important;
+}
+.btn5 i{
+    color: gray;
+}
+.btn5{
+    margin-right: 10px;
+    background-color: transparent;
+    border: 0;
+}
+.gr{
+    color: gray;
+}
+.wte{
+    color: white;
+}
+.lst{
+    margin-right: 150px;
+    margin-left: -100px;
+}
+.footer{
+    color: white;
+    padding-left: 10px;
+    background-color: #1a1d23;
+}
